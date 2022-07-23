@@ -71,7 +71,7 @@ document.addEventListener('submit', function( evento ){
     
     console.log(objeto);
 
-    texto = aprovacao(notas);
+    texto = aprovacao(notas)
 
     document.getElementById('resultado').innerHTML = texto;
 
