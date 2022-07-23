@@ -62,7 +62,7 @@ document.addEventListener('submit', function( evento ){
     for(let key of dados.keys()) {
         objeto[key] = dados.get(key);
 
-        notas += parseInt(dados.get(key));
+        notas.push(parseIntdados.get(key));
     }
 
     console.log(notas);
