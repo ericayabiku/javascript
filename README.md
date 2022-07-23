@@ -148,6 +148,22 @@ if ( media >= 8 ){
      console.log ("aluno reprovado")
 }
 
+## Funçoes
+- Evitar repetiçao de códigos
+- Realizar chamadas dinâmicas de algoritmos
+
+function calculoMedia( notas ) {
+
+    var notas=0;
+    for( c=0; c < notas.lenght; c++ ) {
+        notas+=notas[c];
+    }
+
+    media = notas / notas.length;
+
+    return media;
+}
+
 # Code Togheter
 1. descrever um algoritmo para resolvero problema da 'travessia' de modo seguro; um homem precisa atravessarum rio com um barco que possui capacidade apenas para carregar ele mesmo e mais um e seus tres pertences, que são: um lobo, uma cabra e um maço de alfafa. em cada viagem só poderá ir o homem e apenas um de seus pertences. A seguinte regra deverá ser respeitada: o lobo nao pode ficar sozinho com a cabra e nem a cabra sozinha com o maço de alfafa. escreva um algoritmo para fazer a travessia dos pertences que estao em uma margem do rio para outra.
 
