@@ -8,60 +8,21 @@
         </head>
     <body>
 
-        <script>
+        <div class="container">
 
-function calcularMedia( notas ) {
+            <form id="formulario-01">
+                <input type="text" placeholder="digite um numero" name="n1">
+                <input type="text" placeholder="digite um numero" name="n2">
+                <input type="text" placeholder="digite um numero" name="n3">
+                <button type="submit">Enviar</button>
+            </form>
+        
 
-		var soma = 0;
-    for( c = 0; c < notas.length; c++ ) {
-        soma += notas[c];
-    }
-
-    media = soma / notas.length;
-
-    return media;
-}
-
-let media; //escopo global
-
-function aprovacao( notas ) {
-
-	let media = calcularMedia( notas ); //escopo da funcao 
-  
-  let condicao = media >= 7 ? "aluno aprovado" : "aluno reprovado";
-  
-  return 'Media: ' + media + ' -Resultado: ' + condicao;
-  
-  
-}
-
-//console.log()
-
-//console.log( " Media:" + calcularMedia( [ 8.8 ] ) )
-//console.log( aprovacao( calcularMedia( [ 8.8 ] ) ) )
-console.log( aprovacao( [ 8,7,5 ] ) )
-console.log( aprovacao( [ 8,9,6 ] ) )
-//console.log( "Media:" + calcularMedia( [ 7,9 ] ) )
-//console.log( aprovacao( calcularMedia( [ 7.9 ] ) ) )
-
-//Funçoes Recursivas
-
-function contagemRegressiva(numero){
-
-    console.log(numero);
-
-    let proximoNumero = numero - 1;
-
-    if(proximoNumero > 0)
-
-    contagemRegressiva(proximoNumero);
-
-
-}
-
-contagemRegressiva(10);
-
-
+        </div>
+<div id="resultado">
+    
+</div>
+        <script type="text/javascript" src="./js/script.js">
 
 </script>
 </body>
