@@ -59,6 +59,8 @@ document.addEventListener('submit', function( evento ){
 
     let objeto = {};
 
+    let notas = [];
+
     for(let key of dados.keys()) {
         objeto[key] = dados.get(key);
 
