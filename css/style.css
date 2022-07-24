@@ -1,0 +1,351 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+      margin: 0;
+      padding: 0;
+      font-family: serif;
+      font-size: 62.5%; /* equivalente a 10px */
+  }
+  
+  body {
+      background-color: white;
+  }
+  table {
+      width: 100%;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 3px;
+      margin-top: auto;
+      border-spacing: 100px;
+      border-width: 85%;
+  }
+  article {
+      text-align: left;
+  }
+  h1 {
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: large;
+      font-size: 2rem;
+      text-align: center;
+  }
+  
+  h2 {
+      text-align: left;
+      color: black;
+      font-family: 'Bebas Neue', cursive;
+      font-style: normal;
+      font-size: 5rem;
+  }
+  
+  h4 {
+      background-image: url(../images/INDEX3.jpg);
+      font-size: 15px;
+      width: 100%;
+      padding: auto;
+      float: right;
+      
+      height: 90px;
+      
+      font-family: 'Libre Franklin', sans-serif;
+      
+  }
+      
+  h4:hover {
+      color: #D9C4BF;
+  }
+  .imagemindex img {
+      width: 100%;
+      height: auto;
+  }	
+  
+  
+  h3 {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 1.8rem;
+      text-align: left;
+  }
+      
+  td img {
+      width: 100%;
+      height: auto;
+      text-align: center;
+  }
+  li {
+      font-family: 'Poppins', sans-serif;
+      color: black;
+      font-size: 1.8rem;
+  }
+  
+  a {
+      color: black;
+      text-decoration: none;
+      text-align: center;
+      font-size: 2rem;
+      font-family: 'Libre Franklin', sans-serif;
+      text-align: center;
+  }
+  
+  
+  ul {
+      
+      border-radius: 10%;
+      border-collapse: collapse;
+      font-size: 20px;
+  }
+  
+  ul li {
+      
+      color: black;
+      font-size: 0.8em; /* equivalente a 16px */
+      font-size: 1.6rem; /* equivalente a 16px */
+      width: 80%;
+      height: 3rem; /* equivalente a 30px */
+  }
+  
+  .navegacao li {
+      border-bottom-width: 70%;
+      border-top-width: 70%;
+      border-right-width: 70%;
+      border-left-width: 70%;
+      padding: 1rem 1rem 2rem 1rem;
+  }
+  
+  .navegacao a {
+      color: black;
+      display: block;
+      margin-bottom: .5rem;
+      width: 30%;
+      height: auto;
+  }
+  
+  form {
+      background: white;
+      padding: 10px;
+  }
+  
+  form div {
+      background: white;
+      border-bottom: 1px solid #732937;
+      margin: 1rem;
+      padding: 2rem;
+  }
+  
+  
+  
+  header img {
+      width: 25%;
+      height: 80px;
+      padding: auto;
+      text-size-adjust: 1.8rem;  
+  }
+  
+  nav {
+    float: left;
+    width: 30%;
+    padding: 20px;
+  }
+  
+  
+  nav ul {
+      width: 20%;
+  
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .imagem-homepage {
+      text-align: center;
+  }
+  
+  .imagem-homepage img{ 
+      text-align: center;
+      border-radius: 50%;
+      width: 20%;
+  }
+  
+  article {
+    float: right;
+    padding: 20px;
+    width: 70%;
+  }
+  
+  article img{
+      width: 90%;
+      height: 220px;
+      text-align: center;
+      text-decoration-color: khaki;
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  footer {
+      font-style: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    color: black;
+  }
+      
+  .COWORKING img {
+      width: 40%;
+      height: 450px;
+      text-align: center;
+  
+  }
+  
+  .COWORKING h3 {
+      color: black;
+      font-size: 3rem;
+      font-family: 'Bebas Neue', cursive;
+      text-align: left;
+  
+  }
+  
+  .COWORKING p {
+      color: black;
+      font-size: 1.8rem;
+      font-family: 'Poppins', sans-serif;
+      text-align: left;
+  }
+  
+  .INDEX {
+      text-align:left;
+  }
+  
+  
+  @media (max-width: 768px) {
+
+        .imagem-homepage {
+            width: auto;
+            height: 15%;
+            text-align: left;
+        }
+         
+        table {
+            width: 10%;
+            border-spacing: 4px;
+        }
+      nav, article {
+          text-align: center;
+        width: 100%;
+        height: auto;
+      }
+    .navegacao li {
+           text-align: center;
+           border-bottom-width: 70%;
+          border-top-width: 70%;
+          border-right-width: 70%;
+          border-left-width: 70%;
+          border-bottom: 1px solid #732937;
+          display: block;
+          padding: 1rem 1rem 2rem 1rem;
+          line-height: 1.2rem;
+      }
+    
+  p {
+      font-family: 'Poppins', sans-serif;
+        font-size: 1.8rem;
+        text-align: left;
+    }
+  
+    h2{
+        font-size: 3.5rem;
+        width: 85%;
+    }
+    h3 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3rem;
+  
+    }
+  
+  h4 {
+  font-size: 62.5%;
+  width: 100%;
+  padding: inherit;
+  background-image: url(../images/INDEX3.jpg);
+  background-size: contain;
+  height: 179px;
+  height: 367px;
+  font-size: 2rem;
+  font-family: 'Libre Franklin', sans-serif;
+  background-repeat: repeat-x;
+  }
+  
+  h4:hover{
+      color: #D9C4BF;
+  }
+  
+  .button {
+        background: transparent;
+        font-size: 1.8rem;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-top: transparent;
+        border-right: transparent;
+        border-collapse: collapse;
+  
+    }
+}
+    /* Smartphone */
+    @media (max-width:414px) {
+  .imagem-homepage {
+      text-align: left;
+      width: auto;
+      height: auto;
+      }
+      thead {
+          list-style: circle;
+      }
+      
+  h4 {
+      font-size: 62.5%;
+      width: 100%;
+      padding: inherit;
+      background-image: url(../images/INDEX3.jpg);
+      background-size: contain;
+      height: 179px;
+      height: 367px;
+      font-size: 2rem;
+      font-family: 'Libre Franklin', sans-serif;
+      background-repeat: repeat-x;
+  }
+  
+  h4:hover {
+      color: #D9C4BF;
+  }
+      }
+  
+    nav, article {
+        text-align: left;
+      width: 100%;
+      height: auto;
+    }
+  
+  .navegacao li {
+      text-align: center;
+  }
+  
+  
+  
+  #banner {
+      text-align: center;
+      background-image: url(../images/landingpagejpg.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100vw;
+      height: 200px;
+  }
+  
+  
