@@ -60,6 +60,18 @@ Seleciona o objeto e disponibiliza métodos ( métodos / funçoes).callback
 - console.log()
 - window.scrollTo(x, y)
 
+## Seletores
+- Tipos de seletores: Tag, ID, Class, Name, Query
+- Callback
+- getElementById()
+- getElementsByTagName()
+- getElementsByName()
+- getElementsByClassName()
+- querySelectorAll() // # para id ou . para class
+
+
+
+
 ## Referencias 
 - DOM: https://dom.spec.whatwg.org/
 - Tecnologias em JS: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/JavaScript_technologies_overview
