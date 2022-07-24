@@ -69,6 +69,15 @@ Seleciona o objeto e disponibiliza métodos ( métodos / funçoes).callback
 - getElementsByClassName()
 - querySelectorAll() // # para id ou . para class
 
+## Formulários
+- Precisamos evitar que o usuário passe dados incorretos
+- Direcionar melhor o uso do nosso sistema
+- Proteger a injeçao de código malicioso
+- Evitar erros de procesamento
+- Formatar dados para facilitar o processamento
+- Regex (expressoes regulares)
+
+
 
 
 
