@@ -77,3 +77,27 @@ document.addEventListener('submit', function( evento ){
 
 });
 
+let camposObrigatorios = document.querySelectorAll('input.obrigatorio');
+
+for( let emfoco of camposObrigatorios)
+    validaCampo(emfoco);
+
+function validaCampo(elemento){
+
+    elemento.addEventListener('focusout', function(event) {
+
+        event.preventDefault();
+
+        if( this.value == '') {
+            document.querySelector('.mensagem').innerHTML="Verifique o preenchimento dos campos em vermelho"
+            this.classlist.add('erro');
+            return false;
+        } else {
+            document.querySelector('.mensagem').innerHTML - "" ;
+            this.classlist.remove('erro');
+    }
+});
+
+}
+
+
