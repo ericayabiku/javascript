@@ -67,3 +67,14 @@
  .botao:visited { ... }
  
  </style>
+ ```
+ 
+
+ ## Componentes
+ - Blocos / Modelos / Templates reutilizáveis
+
+ ## Helpers
+ - Funçoes Basicas
+ - Incrementos
+ - Ajustes
+ 
