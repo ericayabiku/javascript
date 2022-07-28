@@ -4,6 +4,10 @@ section {
 
 }
 
+.slide1 {
+    width: 30%;
+}
+
 .card {
     width: 33%;
     float: left;
